@@ -12,7 +12,7 @@ public class AddressTest  {
     @Test
     public void testLsk() {
         try {
-            System.out.println(AddressVerify.Verify("lsk", ""));
+            System.out.println(AddressVerify.Verify("lsk","", ""));
         }catch (Exception e){
             e.printStackTrace();
         }
